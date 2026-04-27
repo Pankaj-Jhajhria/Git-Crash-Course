@@ -69,4 +69,11 @@ _______
             git remote -v (server address for fetch and push)
 
             git push -u origin main (for pushing the repo on repo server)
-            
+
+
+_______
+SSH Key (Secure Shell)
+_______
+            a way to connect securely to remote computers and services
+            private and public key pair (authentication key) for secure access
+
