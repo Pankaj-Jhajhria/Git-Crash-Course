@@ -11,6 +11,8 @@ U - untracked( git enable but untracked)
 for track =>  git add file.txt  (A - track)
               git add . (for adding to track all at once)
 
+M -Modified file (not in staging area)
+
 git diff (Checking the differences made till last addition)
 
 git commit -m "add initial code"   (adding commit)
@@ -23,3 +25,7 @@ git show <commit_id>  (show deeply what are the changes made in the specific com
 
 git blame <file_path>  (check who has changed a part of content in a specific file and when also)
 
+
+
+
+[modified file] => git add <file_name>  => [staging area]  => git commit -m "message" => [commit all the changes are in staging area only] 
