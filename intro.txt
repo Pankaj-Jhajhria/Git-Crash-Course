@@ -16,4 +16,6 @@ git diff (Checking the differences made till last addition)
 git commit -m "add initial code"   (adding commit)
 
 git log (track of all commits with there commit id's)
+        (with author name & email , date & time)
+
 
