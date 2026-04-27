@@ -28,17 +28,23 @@ git blame <file_path>  (check who has changed a part of content in a specific fi
 
 
 
-[modified file] => git add <file_name>  => [staging area]  => git commit -m "message" => [commit all the changes are in staging area only] 
+            [modified file] => git add <file_name>  => [staging area]  => git commit -m "message" => [commit all the changes are in staging area only] 
 
 _______
-_______
+_______****
 REVERT BACK
-_______
+_______****
 _______
             head => latest commit node (head points to some commit_id)    
 
             => if current commit have some bug and wanna make head point to last(or a specific commit) commit than comes
             the concept of REVERT BACK
 
-            git reset --hard <commit_id>  (head goes to commit_id)
+            git reset --hard <commit_id>  (head goes to commit_id ,removes all after this commit(because these are lnearly connectd))
 
+            removing one specific commit code/changes only than -
+                                                                 => git revert <commit_id> 
+                                                
+            History-changing or merge-like operations require a clean working directory.
+
+            
