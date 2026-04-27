@@ -4,6 +4,6 @@ const name1 ='Pankaj'
 const dob ='27/06/2006'
 
 function sayName(){
-    console.log('My Name is '+ name1)
+    console.log('My Name is '+ name2)
 }
 

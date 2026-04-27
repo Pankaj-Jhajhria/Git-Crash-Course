@@ -29,3 +29,11 @@ git blame <file_path>  (check who has changed a part of content in a specific fi
 
 
 [modified file] => git add <file_name>  => [staging area]  => git commit -m "message" => [commit all the changes are in staging area only] 
+
+_______
+_______
+REVERT BACK
+_______
+_______
+            head => latest commit node (head points to some commit_id)    
+            
