@@ -47,4 +47,26 @@ _______
                                                 
             History-changing or merge-like operations require a clean working directory.
 
+
+
+_______
+_______*****
+SST(Single Source Of Truth)
+_______*****
+_______     
+
+
+            => a git installed Remote Server (public) 
+            we will push on remote server ,and fellow developers(community) will pull (having same copy)
+
+            git server => GitHub
+
+
+            make repo(Remote) => server address will be given (like - "git@github.com:Pankaj-Jhajhria/github-crash-course.git")
+
+            sync local code with this server(Remote) => git remote add origin git@github.com:Pankaj-Jhajhria/github-crash-course.git
+
+            git remote -v (server address for fetch and push)
+
+            git push -u origin main (for pushing the repo on repo server)
             
