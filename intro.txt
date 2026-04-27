@@ -36,4 +36,9 @@ REVERT BACK
 _______
 _______
             head => latest commit node (head points to some commit_id)    
-            
+
+            => if current commit have some bug and wanna make head point to last(or a specific commit) commit than comes
+            the concept of REVERT BACK
+
+            git reset --hard <commit_id>  (head goes to commit_id)
+
