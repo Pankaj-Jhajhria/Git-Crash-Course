@@ -1,0 +1,16 @@
+Git - is a VCS(version controlling system /source control)
+
+intially git is not tracking the folder 
+check - git status
+
+do -git init in the folder you wanna do version control 
+    (Initialized empty Git repository)
+    (.git/ folder hidden folder)
+
+U - untracked( git enable but untracked)
+for track =>  git add file.txt  (A - track)
+              git add . (for adding to track all at once)
+
+git diff (Checking the differences made till last addition)
+
+
