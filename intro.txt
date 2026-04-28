@@ -107,9 +107,9 @@ _______
                     => git branch "bug/login-not-working"
 
 _______
-_______
-Rebase
-_______
+_______****
+Rebasing (linear Merge)
+_______****
 _______
             => two ways to do merging :- i) merge (parallel) (lost history) (few commits , more convinient)
                                          ii) Rebase (linear) (history remains) (more commits ,but full commit history)
