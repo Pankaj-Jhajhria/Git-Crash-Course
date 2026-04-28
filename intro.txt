@@ -76,4 +76,6 @@ SSH Key (Secure Shell)
 _______
             a way to connect securely to remote computers and services
             private and public key pair (authentication key) for secure access
-
+            make a new ssh key in windows powershell in (C:\Users\Panka\.ssh\<id_name>)
+            and than add it to github account
+            than it will automatically authenticates the user
