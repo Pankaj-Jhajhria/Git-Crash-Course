@@ -117,3 +117,23 @@ _______
             => git rebase <branch_name>  (to rebase a branch to main branch)
             => git rebase --abort        (to discard a rebase going on)
             
+
+
+_______
+_______*
+Stashing
+_______*
+_______
+            => git stash  ( to put all the temp. local changes (git diff) in a temp. folder)
+            => git pull   (pull the changes from remote repo)
+            => git stash apply ( again apply those locally stored changes whose were stashed)
+
+
+
+
+
+                                                            -------------
+                                                            _____________
+                                                            **COMPLETED**
+                                                            **_________**
+                                                            -------------
