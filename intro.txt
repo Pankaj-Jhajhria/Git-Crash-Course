@@ -26,7 +26,7 @@ git show <commit_id>  (show deeply what are the changes made in the specific com
 git blame <file_path>  (check who has changed a part of content in a specific file and when also)
 
 
-
+git commit -a -m "add message"  (do add and commit at once)
 
             [modified file] => git add <file_name>  => [staging area]  => git commit -m "message" => [commit all the changes are in staging area only] 
 
@@ -90,4 +90,28 @@ _______
                 => git branch (to check the branch we are in)
                 => git branch "<branch_name>"  (to make a new branch locally)
                 => git checkout <branch_name>  (to check and switch the branch)
-                => git 
+                => git push --set-upstream origin new_parallel_branch   (to push after with adding a new branch remotely)
+                => git merge origin/new_parallel_branch       (to merge new_parallel_branch in main branch)
+                => Origin <=> Remote
+
+                => git checkout -b <branch_name>           (to make a new brach if doesn't exist before , switch otherwise)
+                
+                => git pull     (pull changes in local from remote)
+                
+
+    _______****
+    Naming Convention (Branching Tag)
+    _______****
+                    => git branch "feat/add-chat-support"
+                    => git branch "feat/Youtubr-integeration"
+                    => git branch "bug/login-not-working"
+
+_______
+_______
+Rebase
+_______
+_______
+            => two ways to do merging :- i) merge (parallel) (lost history) (few commits , more convinient)
+                                         ii) Rebase (linear) (history remains) (more commits ,but full commit history)
+
+            => 
