@@ -114,4 +114,6 @@ _______
             => two ways to do merging :- i) merge (parallel) (lost history) (few commits , more convinient)
                                          ii) Rebase (linear) (history remains) (more commits ,but full commit history)
 
-            => 
+            => git rebase <branch_name>  (to rebase a branch to main branch)
+            => git rebase --abort        (to discard a rebase going on)
+            
