@@ -79,3 +79,15 @@ _______
             make a new ssh key in windows powershell in (C:\Users\Panka\.ssh\<id_name>)
             and than add it to github account
             than it will automatically authenticates the user
+
+
+_______
+_______*********
+Branching in Git
+_______*********
+_______
+                we can divide our workflow in different parallel tasks/processes (like working in different features) and than finally can merge them
+                => git branch (to check the branch we are in)
+                => git branch "<branch_name>"  (to make a new branch locally)
+                => git checkout <branch_name>  (to check and switch the branch)
+                => git 
